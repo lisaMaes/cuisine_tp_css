@@ -1,0 +1,84 @@
+
+body{
+    
+    background:url("../../assets/nappe.jpg");
+    padding: 20px;
+    font-family: Times New Roman Times serif;
+    font-size:16px ;
+    line-height: 1.4;
+}
+
+main{
+
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    background-color: GhostWhite;
+    border: 1px solid Silver;
+}
+
+h1,h2,h3{
+    font-family: Arial Helvetica sans-serif;
+    line-height: 1.15;
+}
+
+h1{
+
+    border: 1px solid #ff827c;
+    padding: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+h2{
+    border-bottom: 1px solid red;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+h3:first-of-type{
+    margin-top: 0px;
+}
+
+img+h2{
+   width: 50%;
+}
+
+img{
+    float: right;
+    width: 40%;
+    margin: 5% 0%;
+}
+
+div{
+    columns: 2;
+    padding-bottom: 40px;
+}
+
+ol{
+    page-break-inside: avoid;
+}
+
+table{
+    width: 100%;
+    margin: 40px 0px;
+    table-layout: fixed;/* permet d'uniformiser les largeur de td*/
+}
+td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ff423c ;
+    font-size: 30px;
+    text-align: center;
+}
+
+input{
+    width: 3em;
+    text-align: right;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+
